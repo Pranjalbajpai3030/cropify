@@ -1,0 +1,92 @@
+.image-upload-card {
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 20px;
+    background: #e0e0e0;
+    box-shadow: 15px 15px 30px #bebebe,
+                -15px -15px 30px #ffffff,
+                0 4px 8px #8ae5d1;
+  }
+  
+  .image-upload-container {
+    width: 100%;
+    text-align: center;
+    position: relative;
+  }
+  
+  #file-input {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(8, 8, 8, 0.288);
+  }
+  
+  #file-input::file-selector-button {
+    margin-right: 20px;
+    border: none;
+    background:#22cd9d;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.2s ease-in-out;
+  }
+  
+  #file-input::file-selector-button:hover {
+    background: #22cd9d;
+  }
+  
+  .image-preview, .image-preview-placeholder {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed rgba(8, 8, 8, 0.288);
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .image-preview img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+  }
+  
+  .upload-button, .edit-button, .apply-button {
+    margin-top: 10px;
+    border: none;
+    background: #22cd9d;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.2s ease-in-out;
+    margin-right: 10px;
+  }
+  
+  .upload-button:hover, .edit-button:hover, .apply-button:hover {
+    background: #22cd9d;
+  }
+  
+  .edit-container {
+    margin-top: 20px;
+  }
+  
+  .slider-container {
+    margin: 10px 0;
+  }
+  
+  /* New card style with specific shadow color */
+  .card {
+    width: 190px;
+    height: 254px;
+    border-radius: 30px;
+    background: #e0e0e0;
+    box-shadow: 15px 15px 30px #bebebe,
+                -15px -15px 30px #ffffff,
+                0 4px 8px #8ae5b0;
+  }
+  
