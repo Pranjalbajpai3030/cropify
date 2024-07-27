@@ -22,7 +22,7 @@ const Login = (props) => {
 
             if (json.msg==="success") {
                 localStorage.setItem('auth-token', json.authToken); 
-                navigate("/");
+                navigate("/home");
             } else {
                 alert(json.error || "Invalid credentials");
             }
