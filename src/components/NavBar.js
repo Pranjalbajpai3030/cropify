@@ -46,6 +46,7 @@ const Navbar = () => {
               <li className="nav-item">
                 <Link className={`nav-link ${pathname === '/about' ? 'active' : ''}`} to="/about">About</Link>
               </li>
+             
             </ul>
           </div>
         </div>

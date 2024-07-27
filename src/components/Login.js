@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
-import './form.css';
+import './From.css';
 
 const Login = (props) => {
     const [credentials, setCredentials] = useState({ email: "", password: "" });
@@ -20,7 +20,7 @@ const Login = (props) => {
             const json = await response.json();
             console.log("Response from server:", json);
 
-            if (json.success) {
+            if (json.msg==="success") {
                 localStorage.setItem('auth-token', json.authToken); 
                 navigate("/");
             } else {

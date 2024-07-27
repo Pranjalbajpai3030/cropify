@@ -1,5 +1,5 @@
 import React from 'react';
-import './form.css';
+import './From.css';
 import { Link } from 'react-router-dom';
 
 const Signup = () => {
