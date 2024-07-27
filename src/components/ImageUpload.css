@@ -58,7 +58,7 @@
   .upload-button, .edit-button, .apply-button {
     margin-top: 10px;
     border: none;
-    background: #22cd9d;
+    background:#22cd9d;
     padding: 10px 20px;
     border-radius: 10px;
     color: #fff;
@@ -68,7 +68,7 @@
   }
   
   .upload-button:hover, .edit-button:hover, .apply-button:hover {
-    background: #22cd9d;
+    background: #4fcf4f;
   }
   
   .edit-container {
