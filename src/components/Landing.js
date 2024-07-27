@@ -1,5 +1,5 @@
 import React from 'react';
-import backgroundImage from './cropImage.webp'; // Adjust the path if necessary
+import backgroundImage from './image.jpg'; // Adjust the path if necessary
 import { useNavigate } from 'react-router-dom';
 
 const Landing = () => {
@@ -31,7 +31,7 @@ const Landing = () => {
                 
                 .content {
                     text-align: center;
-                    background-color: rgba(255, 255, 255, 0.8);
+                    background-color: transparent; /* Fully transparent background */
                     padding: 20px;
                     border-radius: 10px;
                 }
@@ -39,19 +39,19 @@ const Landing = () => {
                 h1 {
                     margin-bottom: 20px;
                     font-size: 2.5em;
-                    color: #333;
+                    color: white; /* Change text color to white */
                 }
                 
                 p {
                     margin-bottom: 20px;
                     font-size: 1.2em;
-                    color: #666;
+                    color: white; /* Change text color to white */
                 }
                 
                 button {
                     padding: 10px 20px;
                     font-size: 1em;
-                    background-color: #28a745;
+                    background-color: rgba(32, 143, 154, 0.8); /* Increased transparency */
                     color: white;
                     border: none;
                     border-radius: 5px;
@@ -59,7 +59,7 @@ const Landing = () => {
                 }
                 
                 button:hover {
-                    background-color: #218838;
+                    background-color: rgba(32, 143, 154, 1); /* Remove transparency on hover */
                 }
             `}</style>
         </>

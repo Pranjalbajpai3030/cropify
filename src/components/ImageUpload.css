@@ -26,7 +26,7 @@
   #file-input::file-selector-button {
     margin-right: 20px;
     border: none;
-    background:#22cd9d;
+    background:#208f9a;
     padding: 10px 20px;
     border-radius: 10px;
     color: #fff;
@@ -35,7 +35,7 @@
   }
   
   #file-input::file-selector-button:hover {
-    background: #22cd9d;
+    background: #208f9a;
   }
   
   .image-preview, .image-preview-placeholder {
@@ -58,7 +58,7 @@
   .upload-button, .edit-button, .apply-button {
     margin-top: 10px;
     border: none;
-    background:#22cd9d;
+    background:#208f9a;
     padding: 10px 20px;
     border-radius: 10px;
     color: #fff;
@@ -68,7 +68,7 @@
   }
   
   .upload-button:hover, .edit-button:hover, .apply-button:hover {
-    background: #4fcf4f;
+    background: #208f9a;
   }
   
   .edit-container {
