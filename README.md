@@ -8,4 +8,4 @@ Cropify is a comprehensive solution designed to help farmers by providing detail
 
 - **Disease and Pest Identification**: Identify common plant diseases and pests with diagnostic tools and suggested treatments.
 - **Growth Tips and Best Practices**: Get expert advice on planting, fertilizing, and harvesting different crops.
-- **Personalized Recommendations**: Receive tailored suggestions based on your location, soil type, and climate.
+- **Personalized Recommendations**: Receive tailored suggestions based on your location and climate.
