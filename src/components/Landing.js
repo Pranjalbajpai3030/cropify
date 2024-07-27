@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 const Landing = () => {
     const navigate = useNavigate();
     const handleClick = () => {
-        navigate('/about');
+        navigate('/login');
     }
     return (
         <>
