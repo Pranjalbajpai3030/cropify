@@ -6,6 +6,7 @@ import About from './pages/About';
 import Login from './components/Login';
 import Signup from './components/Signup';
 import './App.css';
+import Landing from './components/Landing';
 
 const App = () => {
   return (
@@ -13,10 +14,11 @@ const App = () => {
       <Navbar />
       <div className="app-container">
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/signup" element={<Signup />} />
+          <Route path='/' element={<Landing/>} />
+          <Route path='/login' element={<Login/>} />
+          <Route path='/signup' element={<Signup/>} />
         </Routes>
       </div>
     </Router>
