@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import './From.css';
+import bg from '../components/bag.jpg'; // Adjust the path if needed
 
 const Login = (props) => {
     const [credentials, setCredentials] = useState({ email: "", password: "" });
@@ -36,7 +37,7 @@ const Login = (props) => {
     };
 
     return (
-        <div className="form-container">
+        <div className="form-container" style={{ backgroundImage: `url(${bg})` }}>
             <form className="form" onSubmit={handleSubmit}>
                 <div className="header">Login</div>
                 <div className="inputs">

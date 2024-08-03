@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import './From.css';
+import bg from '../components/bag.jpg'; // Adjust the path if needed
 
 const Signup = () => {
     const [credentials, setCredentials] = useState({ name: "", email: "", password: "", confirmPassword: "" });
@@ -40,7 +41,7 @@ const Signup = () => {
     };
 
     return (
-        <div className="form-container">
+        <div className="form-container" style={{ backgroundImage: `url(${bg})` }}>
             <form className="form" onSubmit={handleSubmit}>
                 <div className="header">Sign Up</div>
                 <div className="inputs">

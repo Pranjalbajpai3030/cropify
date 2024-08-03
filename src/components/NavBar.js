@@ -1,30 +1,13 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import './NavBar.css'; 
 
 const Navbar = () => {
   const location = useLocation();
   const { pathname } = location;
-  const [isSticky, setIsSticky] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const navBarHeight = document.querySelector('.navbar').offsetHeight;
-      if (window.scrollY > navBarHeight) {
-        setIsSticky(true);
-      } else {
-        setIsSticky(false);
-      }
-    };
-    
-    window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
 
   return (
-    <nav className={`navbar navbar-expand-lg navbar-custom ${isSticky ? 'sticky-top' : ''}`}>
+    <nav className="navbar navbar-expand-lg navbar-custom sticky-top">
       <div className="container-fluid">
         <Link className="navbar-brand d-flex align-items-center" to="/">
           <span className="title-text ms-2">Cropify</span>

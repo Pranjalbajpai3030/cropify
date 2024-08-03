@@ -42,8 +42,7 @@
 }
 
 .sticky-top {
-  position: fixed;
+  position: sticky; /* Change from fixed to sticky */
   top: 0;
-  width: 100%;
   z-index: 1030;
 }
