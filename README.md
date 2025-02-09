@@ -2,7 +2,7 @@
 
 ## Overview
 
-Cropify is a comprehensive solution designed to help farmers by providing detailed information about various plants. Our goal is to support farmers in making informed decisions about crop management, plant health, and overall farm productivity. By leveraging technology, Cropify aims to bridge the gap between farmers and essential plant knowledge.
+Cropify is a comprehensive solution designed to help farmers by providing detailed information about various plants. Our goal is to support farmers in making informed decisions about crop management, plant health, and overall farm productivity. By leveraging technology, Cropify aims to bridge the gap between farmers and essential plants knowledge.
 
 ## Features
 
